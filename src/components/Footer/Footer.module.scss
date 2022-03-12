@@ -1,11 +1,48 @@
-.icon i {
+.icon {
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   left: 20px;
-  background-color: #70eb71;
-  border-radius: 30px;
+}
+.footer {
+  width: 100%;
+  margin-top: 10px;
+  background: url('/space.jpg') no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+}
+.article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  margin-left: 50px;
+  text-align: center;
+}
+.h3 {
   color: white;
-  font-size: 50px;
+  font-family: sans-serif;
+}
+.buttom a {
   padding: 10px;
-  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid white;
+}
+.buttom a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  transition: 1s;
+}
+.descricao {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+.descricao p {
+  margin: 0;
+  color: white;
 }
