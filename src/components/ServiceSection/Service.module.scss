@@ -1,0 +1,59 @@
+.title {
+  margin-top: 10px;
+  width: 100%;
+  background: url('/water.jpg') no-repeat;
+  background-size: cover;
+}
+.subtitle {
+  color: white;
+  padding-bottom: 10px;
+}
+.title h1 {
+  text-align: center;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  flex-wrap: wrap;
+}
+.box {
+  margin-left: 30px;
+  text-align: center;
+  width: 25%;
+  color: #666666;
+  background-color: white;
+  height: 400px;
+  margin-bottom: 80px;
+}
+.box h1 {
+  font-size: 20px;
+  padding: 10px;
+  background: white;
+}
+.box p {
+  text-align: justify;
+  background-color: white;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 26px;
+  height: 150px;
+}
+.buttom{
+  width: 100%;
+  padding: 20px 0;
+  background-color: #27a6d0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+.box a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
