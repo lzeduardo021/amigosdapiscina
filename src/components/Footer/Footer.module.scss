@@ -10,11 +10,6 @@
   background-size: cover;
   padding: 20px 0;
 }
-.article {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 .logo {
   margin-left: 50px;
   text-align: center;
@@ -22,23 +17,19 @@
 .h3 {
   color: white;
   font-family: sans-serif;
+  margin-bottom: 30px;
 }
-.buttom a {
+.buttom  {
   padding: 10px;
   background-color: transparent;
   color: white;
   font-weight: 600;
   text-decoration: none;
   border: 2px solid white;
-}
-.buttom a:hover {
-  background-color: white;
-  color: black;
-  font-weight: 600;
-  transition: 1s;
+  margin-top: 20px;
 }
 .descricao {
-  margin-top: 30px;
+  margin-top: 60px;
   text-align: center;
   width: 100%;
 }
