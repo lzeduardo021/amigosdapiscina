@@ -1,101 +1,74 @@
-import Image from 'next/image'
 import styles from './Service.module.scss'
+import { Card, CardGroup } from 'react-bootstrap'
 
 export default function ServiceSection() {
   return (
     <>
       <div className={styles.title}>
         <h1 className={styles.subtitle}>Serviços</h1>
+        <CardGroup>
+          <Card className={styles.box}>
+            <Card.Img variant="top" src="hidraulica.jpg" height="230px" />
+            <Card.Body>
+              <Card.Title>Parte Hidráulica/Elétrica</Card.Title>
+              <Card.Text>
+                Manutenção preventiva e saneamento de vazamentos e reparos em
+                instalações hidráulicas e elétricas para casa de bombas de
+                piscinas.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className={styles.buttom}>
+              <small className={styles.small}>
+                <a href="">Faça já seu orçamento.</a>
+              </small>
+            </Card.Footer>
+          </Card>
+          <Card className={styles.box}>
+            <Card.Img variant="top" src="instalacao.jpg" height="230px" />
+            <Card.Body>
+              <Card.Title>Instalação de Piscina</Card.Title>
+              <Card.Text>
+                Amigos da Piscina foca no bem estar dos clientes instalando com maior segurança, com ótima equipe de trabalho.{' '}
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className={styles.buttom}>
+              <small className={styles.small}>
+                <a href="">Faça já seu orçamento.</a>
+              </small>
+            </Card.Footer>
+          </Card>
+          <Card className={styles.box}>
+            <Card.Img variant="top" src="deck.jpg" height="230px" />
+            <Card.Body>
+              <Card.Title>Decks</Card.Title>
+              <Card.Text>
+                Amigos da Piscina JC tem experiência no mercado de reforma de
+                deck. Realizamos serviços de aplicação de resinas, lixamento,
+                troca de ripas e instalação completa.{' '}
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className={styles.buttom}>
+              <small className={styles.small}>
+                <a href="">Faça já seu orçamento.</a>
+              </small>
+            </Card.Footer>
+          </Card>
 
-        <div className={styles.article}>
-          <div className={styles.box}>
-            <Image
-              src="/instalacao.jpg"
-              alt=""
-              width="500px"
-              height="250"
-            ></Image>
-            <h1>Instalação de Piscina</h1>
-            <p>
-              Limpamos as paredes, fundo e superfície das piscinas de acordo com
-              as especificações do Instituto Estadual do Ambiente (Rio De
-              Janeiro).
-            </p>
-            <div className={styles.buttom}>
-              <a href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20instalação%20de%20piscinas.">
-                Faça Seu Orçamento.
-              </a>
-            </div>
-          </div>
-          <div className={styles.box}>
-            <Image src="/d3.jpeg" alt="" width="500px" height="250"></Image>
-            <h1>Manutenção de Piscinas</h1>
-            <p>
-              Limpamos as paredes, fundo e superfície das piscinas de acordo com
-              as especificações do Instituto Estadual do Ambiente (Rio De
-              Janeiro).
-            </p>
-            <div className={styles.buttom}>
-              <a href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20uma%20manutenção%20em%20minha%20piscina.">
-                Faça Seu Orçamento.
-              </a>
-            </div>
-          </div>
-          <div className={styles.box}>
-            <Image
-              src="/hidraulica.jpg"
-              alt=""
-              width="500px"
-              height="250"
-            ></Image>
-            <h1>Parte Hidráulica</h1>
-            <p>
-              Manutenção preventiva e saneamento de vazamentos e reparos em
-              instalações hidráulicas e elétricas para casa de bombas de
-              piscinas.
-            </p>
-            <div className={styles.buttom}>
-              <a
-                href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20manutenção%20na%20bomba%20hidráulica%20da%20minha%20piscina.">
-                Faça Seu Orçamento.
-              </a>
-            </div>
-          </div>
-
-          <div className={styles.box}>
-            <Image src="/deck.jpg" alt="" width="500px" height="250"></Image>
-            <h1>Reforma de Deck </h1>
-            <p>
-              Amigos da Piscina JC tem experiência no mercado de reforma de
-              deck. Realizamos serviços de aplicação de resinas, lixamento,
-              troca de ripas e instalação completa.
-            </p>
-            <div className={styles.buttom}>
-              <a href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20uma%20reforma%20no%20deck%20da%20piscina.">
-                Faça Seu Orçamento.
-              </a>
-            </div>
-          </div>
-
-          <div className={styles.box}>
-            <Image
-              src="/eletrica.jpg"
-              alt=""
-              width="500px"
-              height="250"
-            ></Image>
-            <h1>Parte Elétrica</h1>
-            <p>
-              Nossos técnicos o atenderão em sua casa e ou empresa, com maior
-              segurança e confiabilidade.
-            </p>
-            <div className={styles.buttom}>
-              <a href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20um%20orçamento.">
-                Faça Seu Orçamento.
-              </a>
-            </div>
-          </div>
-        </div>
+          <Card className={styles.box}>
+            <Card.Img variant="top" src="d3.jpeg" height="230px" />
+            <Card.Body>
+              <Card.Title>Manutenção de Piscina</Card.Title>
+              <Card.Text>
+              Limpamos as paredes, fundo e superfície das piscinas de acordo com as especificações do Instituto Estadual do Ambiente (Rio De Janeiro).
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className={styles.buttom}>
+              <small className={styles.small}>
+                <a href="">Faça já seu orçamento.</a>
+              </small>
+            </Card.Footer>
+          </Card>
+        </CardGroup>
       </div>
     </>
   )

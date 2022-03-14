@@ -13,7 +13,6 @@ export default function Footer() {
       </div>
 
       <div className={styles.footer}>
-        <div className={styles.article}>
           <div className={styles.logo}>
             <Image
               src="/logo1.png"
@@ -23,14 +22,11 @@ export default function Footer() {
               height="200"
             ></Image>
             <h3 className={styles.h3}>Excelência no Atendimento.</h3>
-          </div>
-          <div className={styles.buttom}>
-            <a
+            <a className={styles.buttom}
               href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20um%20orçamento."            >
               Faça já seu orcamento.
             </a>
           </div>
-        </div>
         <div className={styles.descricao}>
           <p>© Todos os direitos reservados. {year}</p>
           <p>
