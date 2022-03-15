@@ -9,7 +9,7 @@ export default function Footer() {
     <>
       <div className={styles.icon}>
         <ReactTooltip effect="solid" />
-        <a href=""></a>
+        <a href=""><Image src="/icon.jpeg" alt="" width="70" height="70" /> </a>
       </div>
 
       <div className={styles.footer}>
@@ -23,7 +23,7 @@ export default function Footer() {
             ></Image>
             <h3 className={styles.h3}>Excelência no Atendimento.</h3>
             <a className={styles.buttom}
-              href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20um%20orçamento."            >
+              href="https://api.whatsapp.com/send?phone=5521991683818&text=Gostaria%20de%20fazer%20um%20orçamento.">
               Faça já seu orcamento.
             </a>
           </div>
