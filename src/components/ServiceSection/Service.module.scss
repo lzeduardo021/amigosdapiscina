@@ -1,27 +1,31 @@
 .title {
   margin-top: 50px;
-  padding: 50px 0;
-  background: url('/water.jpg')no-repeat;
-  background-size: cover;
+  padding: 40px 0;
+  background-color: #151a36;
 }
 .subtitle {
   text-align: center;
   color: white;
-  padding-bottom: 10px;
+  padding: 20px;
   font-weight: 700;
 }
 .buttom {
   text-align: center;
-  background-color: aqua;
+  border-top: 1px solid #666666;
+  background-color: white;
   cursor: pointer;
 }
 .small a {
   text-decoration: none;
-  color: white;
-  font-weight: 700;
+  color: #666666;
+  font-weight: 800;
 }
 .box {
+  text-align: justify;
   margin:0 10px;
   flex-wrap: wrap;
   border: 0;
+}
+.boxtitle {
+  text-align: center;
 }
